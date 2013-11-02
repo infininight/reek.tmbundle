@@ -31,6 +31,21 @@ TextMate::Executor.run(ENV['TM_REEK'] || 'reek', ENV['TM_FILEPATH'], options)
 	<string>html</string>
 	<key>outputLocation</key>
 	<string>newWindow</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>reek</string>
+			<key>locations</key>
+			<array>
+				<string>/usr/local/bin/reek</string>
+				<string>/opt/local/bin/reek</string>
+				<string>/usr/bin/reek</string>
+			</array>
+			<key>variable</key>
+			<string>TM_REEK</string>
+		</dict>
+	</array>
 	<key>uuid</key>
 	<string>2D415E1F-1696-4782-832C-5A6144537617</string>
 	<key>version</key>
