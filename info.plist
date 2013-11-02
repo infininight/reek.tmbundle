@@ -7,9 +7,9 @@
 	<key>contactName</key>
 	<string>Kumar, Peeyush</string>
 	<key>description</key>
-	<string>New shiny bundle for X.</string>
+	<string>Code smell detector for Ruby</string>
 	<key>name</key>
-	<string>Reek</string>
+	<string>Ruby Reek</string>
 	<key>uuid</key>
 	<string>6F1383EE-4E16-42ED-A75A-4F0032DC3984</string>
 </dict>
